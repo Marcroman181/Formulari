@@ -1,4 +1,4 @@
-var url="https://rawgit.com/Marcroman181/XMLprova/master/preguntes.xml";
+var url="https://rawgit.com/Marcroman181/Formulari/master/xml/questions.xml";
 var i=0;
 var respuestas=[];
 var nRespuestas=[];//COntiene la cantidad de respuestas de cada pregunta
