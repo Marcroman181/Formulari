@@ -341,7 +341,7 @@ function presentarNota(){
     var node = document.createTextNode("Tu nota es: " + nota.toFixed(2));
     p.appendChild(node);
     document.getElementById("nota").appendChild(p);
-    document.getElementById("resultado").style.display="inline-block";
+    document.getElementById("resultado").style.display="block";
 }
 
 function darExplicacion(e) {
