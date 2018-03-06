@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario</title>
+		<meta charset=UTF-8>
+		<meta name="description" content="Forlmulario de la Univerdad">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
+		<link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'>
+		<script src="js/js.js"></script>
+	</head>
+	<body>
+		<div id="cabecera">
+			<h1>Universidad de fútbol</h1>
+			<img id="logo" src="img/logo.png" alt="img logo">
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="portada.html">Inicio</a></li>
+				<li><a class="active" href="formulari.html">Examen</a></li>
+				<li><a>Contacto</a></li>
+				<li><a>Acerca</a></li>
+			</ul>
+		</div>
+		<form id="myform">
+			<fieldset class="impar">
+				<h3></h3>
+			 	<input type='text' placeholder="Escribe aquí..." required>	
+			 	<br>
+			 	<br>
+			</fieldset>
+			<fieldset class="par">
+				<h3></h3>
+				<input type='text' placeholder="Escribe aquí..." required>		
+				<br>
+			 	<br>
+			 	<br>
+			</fieldset>
+			<fieldset class="impar">
+				<h3></h3>
+				<select>
+					<option selected="" value="-1" disabled="">Selecciona una...</option>
+				</select>
+				<br>
+			 	<br>
+			 	<br>
+			</fieldset>
+			<fieldset class="par">
+				<h3></h3>
+				 <select>
+				 	<option selected="" value="-1" disabled="">Selecciona una...</option>
+				 </select>
+				 <br>
+			 	<br>
+			</fieldset>
+			<fieldset class="impar">
+				<h3></h3>
+				<select multiple>
+					<option value="-1" disabled="">Selecciona al menos una...</option>
+				</select>
+				<br>
+			 	<br>
+			</fieldset>
+			<fieldset class="par">
+				<h3></h3>
+				<select multiple>
+					<option value="-1" disabled="">Selecciona al menos una...</option>
+				</select>
+				<br>
+			 	<br>
+			</fieldset>
+			<fieldset class="impar">
+				<h3></h3>
+			</fieldset>
+			<fieldset class="par">
+				<h3></h3>
+			</fieldset>
+			<fieldset class="impar">
+				<h3></h3>
+			</fieldset>
+			<fieldset id="Q10">
+				<h3></h3>
+			</fieldset>
+			<fieldset id="divSubmit">
+				<p><input id="submit" type='submit' value="Corregir"></p>
+			</fieldset>
+		</form>
+		<div id="resultado">
+			<div id="nota"></div>
+			<div id="explicacion"></div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="questions.xsd">
+  <question id='profe001'>
+    <type>text</type>
+    <title>¿De que país es la Juventus de Turín?</title>
+    <answer>italia</answer>
+  </question>
+  <question id='profe002'>
+    <type>text</type>
+    <title>¿En que año ganó el mundial la selección española? </title>
+    <answer>2010</answer>
+  </question>
+  <question id='profe003'>
+    <type>select</type>
+    <title>¿Quien ganó la liga en la temporada 2013/14?</title>
+    <option>Real Madrid</option>
+    <option>FC Barcelona</option> 
+    <option>Atletico de Madrid</option>
+    <answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+  </question>
+  <question id='profe004'>
+    <type>select</type>
+    <title>¿Quien fue el pichichi de la liga en la última temporada?</title>
+    <option>Lionel Messi</option>
+    <option>Luís Suárez</option> 
+    <option>Cristiano Ronaldo</option>
+    <answer>0</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+  </question>
+  <question id='profe005'>
+    <type>multiple</type>
+    <title>¿Que equipos de estos son españoles?</title>
+    <option>Athletic club</option>
+    <option>Liverpool</option> 
+    <option>Deportivo Alavés</option> 
+    <option>Torino</option>
+    <answer>0</answer>
+    <answer>2</answer>
+  </question>
+  <question id='profe006'>
+    <type>multiple</type>
+    <title>¿Cual de estos equipos jugaron la final del mundial de 2014?</title>
+    <option>Italia</option>
+    <option>Alemania</option> 
+    <option>Argentina</option> 
+    <option>España</option>
+    <answer>1</answer>
+    <answer>2</answer>
+  </question>
+  <question id='profe007'>
+    <type>checkbox</type>
+    <title>¿Que dos jugadores tienes más balones de oro?</title>
+    <option>Maradona</option>
+    <option>Messi</option> 
+    <option>Cristiano Ronaldo</option> 
+    <option>Romario</option>
+    <answer>1</answer>
+    <answer>2</answer>
+  </question>
+  <question id='profe008'>
+    <type>checkbox</type>
+    <title>¿Que dos selecciones tienen un mundial ganado?</title>
+    <option>España</option>
+    <option>Holanda</option> 
+    <option>Inglaterra</option>
+    <option>Portugal</option>
+    <answer>0</answer>
+    <answer>2</answer>
+  </question>
+  <question id='profe009'>
+    <type>raadio</type>
+    <title>¿Quien fue el zámora en la temporada 2014/15?</title>
+    <option>Thibaut Courtois</option>
+    <option>Claudio Bravo</option> 
+    <option>Iker Casillas</option>
+    <answer>1</answer>
+  </question>
+  <question id='profe010'>
+    <type>radio</type>
+    <title>¿Quien ganó el balon de oro la temporada 2007?</title>
+    <option>Kaká</option>
+    <option>Cristiano Ronaldo</option> 
+    <option>Lionel Messi</option>
+    <answer>0</answer>
+  </question>
+</questions>

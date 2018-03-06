@@ -1,0 +1,118 @@
+[
+      {
+        "-id": "profe001",
+        "type": "text",
+        "title": "¿De que país es la Juventus de Turín?",
+        "answer": "italia"
+      },
+      {
+        "-id": "profe002",
+        "type": "text",
+        "title": "¿En que año ganó el mundial la selección española?\" ",
+        "answer": "2010"
+      },
+      {
+        "-id": "profe003",
+        "type": "select",
+        "title": "¿Quien ganó la liga en la temporada 2013/14?",
+        "option": [
+          "Real Madrid",
+          "FC Barcelona",
+          "Atletico de Madrid"
+        ],
+        "answer": "2"
+      },
+      {
+        "-id": "profe004",
+        "type": "select",
+        "title": "¿Quien fue el pichichi de la liga en la última temporada?",
+        "option": [
+          "Lionel Messi",
+          "Luís Suárez",
+          "Cristiano Ronaldo"
+        ],
+        "answer": "1"
+      },
+      {
+        "-id": "profe005",
+        "type": "multiple",
+        "title": "¿Que equipos de estos son españoles?",
+        "option": [
+          "Athletic club",
+          "Liverpool",
+          "Deportivo Alavés",
+          "Torino"
+        ],
+        "answer": [
+          "1",
+          "3"
+        ]
+      },
+      {
+        "-id": "profe006",
+        "type": "multiple",
+        "title": "¿Cual de estos equipos jugaron la final del mundial de 2014?",
+        "option": [
+          "Italia",
+          "Alemania",
+          "Argentina",
+          "España"
+        ],
+        "answer": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "-id": "profe007",
+        "type": "checkbox",
+        "title": "¿Que dos jugadores tienes más balones de oro?",
+        "option": [
+          "Maradona",
+          "Messi",
+          "Cristiano Ronaldo",
+          "Romario"
+        ],
+        "answer": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "-id": "profe008",
+        "type": "checkbox",
+        "title": "¿Que dos selecciones tienen un mundial ganado?",
+        "option": [
+          "España",
+          "Holanda",
+          "Inglaterra",
+          "Portugal"
+        ],
+        "answer": [
+          "1",
+          "3"
+        ]
+      },
+      {
+        "-id": "profe009",
+        "type": "raadio",
+        "title": "¿Quien fue el zámora en la temporada 2014/15?",
+        "option": [
+          "Thibaut Courtois",
+          "Claudio Bravo",
+          "Iker Casillas"
+        ],
+        "answer": "2"
+      },
+      {
+        "-id": "profe010",
+        "type": "radio",
+        "title": "¿Quien ganó el balon de oro la temporada 2007?",
+        "option": [
+          "Kaká",
+          "Cristiano Ronaldo",
+          "Lionel Messi"
+        ],
+        "answer": "1"
+      }
+    ]
