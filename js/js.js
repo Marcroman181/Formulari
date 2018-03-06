@@ -342,6 +342,7 @@ function presentarNota(){
     p.appendChild(node);
     document.getElementById("nota").appendChild(p);
     document.getElementById("resultado").style.display="block";
+    document.getElementById("resultado").focus();
 }
 
 function darExplicacion(e) {
