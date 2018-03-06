@@ -52,6 +52,7 @@ ul {
 li {
 	float: left;
 	width: 25%;
+	cursor: pointer;
 }
 
 li a {
@@ -77,6 +78,7 @@ li a:hover:not(.active) {
 	min-width:  80px;
 	width: 50%;
 	max-width: 200px;
+	cursor: pointer;
 }
 input[type=radio],input[type=checkbox] {
     width: 5%;
@@ -122,5 +124,34 @@ label {
 }
 h4{
 	margin-left:2vw;
+	margin-right:2vw;
 	font-size: 4vw;
 }
+#portada{
+	margin-top: 15px;
+	width: 90%;
+	background-color: #ffefd7;
+	margin-left: 4%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	border:solid;
+	border-width:5px;
+	border-color: #25546f;
+}
+#contenedorIniciar{
+	text-align: center;
+}
+#iniciar{
+    display: inline-block;
+    background-color: white;
+    border: solid;
+    border-width: 5px;
+    border-color: #25546f;
+    font-size: 7vw;
+    padding: 1%;
+}
+#enlace{
+	text-decoration: none;
+	color: black;
+}
+#iniciar:hover {transform: scale(1.2);}

@@ -40,6 +40,13 @@ window.onload = function(){
 		return false;		
 	}
 
+	document.getElementById("inicio").onclick = function () {
+		if(confirm("¿Seguro que desea salir del examen?")){
+			window.open("portada.html","_self");
+		}
+	}
+
+
 }
 // función personalizada que gestiona la respuesta a la petición de fichero
 function gestionarXml(dadesXml){
@@ -342,7 +349,7 @@ function presentarNota(){
     p.appendChild(node);
     document.getElementById("nota").appendChild(p);
     document.getElementById("resultado").style.display="block";
-    document.getElementById("resultado").focus();
+    window.location.hash = '#nota';
 }
 
 function darExplicacion(e) {
