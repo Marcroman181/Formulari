@@ -8,7 +8,7 @@ body,html{padding:0px;margin:0px;background-color:#80b5d4;background-position:ce
     height: 15vw;
     top: 20;
     position:  relative;
-    top: -3vw;
+    bottom: 3vw;
 }
 h1{
 	font-size: 10vw;
