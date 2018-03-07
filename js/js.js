@@ -10,7 +10,7 @@ window.onload = function(){
 	xhttp.onreadystatechange = function() {
 	 if (this.readyState == 4 && this.status == 200) {
 	  // función personalizada que gestiona la respuesta a la petición de fichero
-	  gestionarXml(this); 
+	 	gestionarXml(this); 
 	 }
 	};
 	xhttp.open("GET", url, true); //url del fichero
@@ -78,7 +78,7 @@ function gestionarXml(dadesXml){
 	  	for (j = 0; j < nopt; j++) { 
 	  		opciones[j] = xmlDoc.getElementsByTagName("question")[numeroQuestion+2].getElementsByTagName("option")[j].innerHTML;
 	  	}
-		 ponerDatosSelectHtml(opciones,numeroQuestion);
+		ponerDatosSelectHtml(opciones,numeroQuestion);
 	}
 
 	//Checkbox
@@ -87,7 +87,7 @@ function gestionarXml(dadesXml){
 		opciones=[];
  		var nopt = xmlDoc.getElementsByTagName("question")[numeroQuestion+6].getElementsByTagName("option").length;
  		for (j = 0; j < nopt; j++) { 
-    		opciones[j] = xmlDoc.getElementsByTagName("question")[numeroQuestion+6].getElementsByTagName("option")[j].innerHTML;
+    			opciones[j] = xmlDoc.getElementsByTagName("question")[numeroQuestion+6].getElementsByTagName("option")[j].innerHTML;
  		}
  		ponerDatosCheckboxHtml(opciones,numeroQuestion);
  	}
@@ -98,7 +98,7 @@ function gestionarXml(dadesXml){
 		opciones=[];
  		var nopt = xmlDoc.getElementsByTagName("question")[numeroQuestion+8].getElementsByTagName("option").length;
  		for (j = 0; j < nopt; j++) { 
-    		opciones[j] = xmlDoc.getElementsByTagName("question")[numeroQuestion+8].getElementsByTagName("option")[j].innerHTML;
+    			opciones[j] = xmlDoc.getElementsByTagName("question")[numeroQuestion+8].getElementsByTagName("option")[j].innerHTML;
  		}
  		ponerDatosRadioHtml(opciones,numeroQuestion);
  	}
@@ -134,9 +134,9 @@ function ponerDatosCheckboxHtml(opt, nCheckbox){
 	    checkboxContainer.appendChild(input);
 	    checkboxContainer.appendChild(label);
 	    checkboxContainer.appendChild(document.createElement("br"));
- }  
- checkboxContainer.appendChild(document.createElement("br"));
- checkboxContainer.appendChild(document.createElement("br"));
+	}  
+ 	checkboxContainer.appendChild(document.createElement("br"));
+ 	checkboxContainer.appendChild(document.createElement("br"));
 }
 
 function ponerDatosRadioHtml(opt, nRadio){
@@ -159,13 +159,13 @@ function ponerDatosRadioHtml(opt, nRadio){
 	    checkboxContainer.appendChild(input);
 	    checkboxContainer.appendChild(label);
 	    checkboxContainer.appendChild(document.createElement("br"));
- }  
- checkboxContainer.appendChild(document.createElement("br"));
- checkboxContainer.appendChild(document.createElement("br"));
+	}  
+ 	checkboxContainer.appendChild(document.createElement("br"));
+ 	checkboxContainer.appendChild(document.createElement("br"));
 }
 function inicializar(){
   // document.getElementById('resultadosDiv').innerHTML = "";
-   nota=0.0;
+   	nota=0.0;
 }
 
 function comprobar(){
@@ -345,11 +345,11 @@ function corregirRadio(){
 function presentarNota(){
 	var p = document.createElement("h3");
 	if(nota<0) nota=0;
-    var node = document.createTextNode("Tu nota es: " + nota.toFixed(2));
-    p.appendChild(node);
-    document.getElementById("nota").appendChild(p);
-    document.getElementById("resultado").style.display="block";
-    window.location.hash = '#nota';
+    	var node = document.createTextNode("Tu nota es: " + nota.toFixed(2));
+    	p.appendChild(node);
+    	document.getElementById("nota").appendChild(p);
+    	document.getElementById("resultado").style.display="block";
+    	window.location.hash = '#nota';
 }
 
 function darExplicacion(e) {
