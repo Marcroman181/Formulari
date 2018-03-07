@@ -84,3 +84,5 @@ Siguiendo la estructura del html:
   **-PresentarNota:** Esta funcionalidad nos va a permitir insertar la nota final y realizar un focus a la nota.
   
   **-DarExplicación:** Este método es para simplificar el código, nos permite insertándole una variable por parámetro imprimir el contenido de esta variable debajo de la nota. Nos es útil para mostrar las respuestas correctas e incorrectas que ha contestado el usuario.
+  
+Por último, al intentar pulsar inicio en el menú para salir del examen, le pregunta al usuario si de verdad desea salir del examen.
