@@ -1,15 +1,17 @@
-# Formulario minimificado
+# Formulario
 ## Práctica html, css, javascript y xml de un formulario
 
 **Autor: Marc Antoni Román Martínez**
 
-[Link del rawgit de la portada del formulario minimificado](https://rawgit.com/Marcroman181/Formulari/minimied/portada.html)
+[Link del rawgit de la portada del formulario](https://rawgit.com/Marcroman181/Formulari/master/portada.html)
 
-[Link del rawgit del XML minimificado](https://rawgit.com/Marcroman181/Formulari/minimied/xml/questions.xml)
+[Link del rawgit del XML](https://rawgit.com/Marcroman181/Formulari/master/xml/questions.xml)
 
-[Link del rawgit del XML validado con XSD minimificado](https://rawgit.com/Marcroman181/Formulari/minimied/xml/questionsXSD.xml)
+[Link del rawgit del XML validado con XSD](https://rawgit.com/Marcroman181/Formulari/master/xml/questionsXSD.xml)
 
-[Link del rawgit del JSON minimificado](https://rawgit.com/Marcroman181/Formulari/minimied/json/preguntes.json)
+[Link del rawgit del JSON](https://rawgit.com/Marcroman181/Formulari/master/json/preguntes.json)
+
+**Este repositorio contiene una branch con todo el codigo minimificado**
 
 
 ### Documentación
