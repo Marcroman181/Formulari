@@ -56,7 +56,7 @@ function gestionarXml(dadesXml){
 	var opciones=[];
 	var numeroQuestion;
 
-	//Titles i numero de respostes
+	//Titles, respuestas i numero de respostes
 	for(numeroQuestion=0; numeroQuestion<10;numeroQuestion++){
 		titulos=xmlDoc.getElementsByTagName("title")[numeroQuestion].innerHTML;
 		document.getElementsByTagName("h3")[numeroQuestion].innerHTML=titulos;
