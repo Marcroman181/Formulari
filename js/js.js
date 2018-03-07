@@ -22,9 +22,9 @@ window.onload = function(){
 		if (!examenRealizado) {
 
 		   	inicializar();
-		   	if (confirm("¿Quieres corregir el examen?")){
+		   	if (comprobar()){
 				
-				if (comprobar()){
+				if (confirm("¿Quieres corregir el examen?")){
 					corregirText();
 					corregirSelect();
 					corregirMultiple();
